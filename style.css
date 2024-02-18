@@ -1,0 +1,40 @@
+body {
+	color: #81a0a2;
+	margin: 0;
+	text-align: center;
+	font-family: "Orbitron", sans-serif;
+	font-optical-sizing: auto;
+  	font-weight: 400px;
+  	font-style: normal;
+	}
+
+ /*<uniquifier>: Use a uniquifier for the class name
+ <weight>: Use a value from 400 to 900*/
+#hero-img{
+	background-image: url("images/galaxy.webp");
+	background-size: fit;
+	padding: 10px 0 40px 0;
+}
+
+#logo {
+	width: 150px;
+
+}
+.blur-border{
+	text-shadow: 0px 0px 4px black;
+}
+
+.underline {
+	border-bottom: 4px solid white;
+
+}
+
+
+.btn{
+	padding: 6px 12px;
+	background: white;
+	border: none;
+	font-family: inherit;
+	font-weight:bold;
+	color: #81a0a2;
+}
